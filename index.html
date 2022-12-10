@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background-color: hsl(30, 38%, 92%);
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      h5 {
+        margin-left: 350px;
+      }
+      .card {
+        margin: 90px 300px 90px 300px;
+        border-radius: 10px;
+      }
+      a {
+        align-items: center;
+        text-align: center;
+        margin-left: 80px;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="row no-gutters">
+        <div class="col-auto">
+          <img
+            src="./images/image-product-desktop.jpg"
+            class="img-fluid"
+            alt=""
+            style="
+              height: 450px;
+              border-top-left-radius: 10px;
+              border-bottom-left-radius: 10px;
+            "
+          />
+        </div>
+        <div class="col">
+          <div class="card-block px-2">
+            <h6 style="opacity: 80%">Preview</h6>
+            <h4 class="card-title mt-5" style="font-family: Montserrat">
+              <b> <i> Gabrielle Essence Eau De Parfum</i></b>
+            </h4>
+            <br />
+
+            <p
+              class="card-text"
+              style="opacity: 80%; font-size: 18px; font-weight: 500"
+            >
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <br />
+
+            <p>
+              <span
+                style="
+                  font-size: 30px;
+                  font-weight: 900;
+                  color: #3c9f7b;
+                  font-style: italic;
+                  font-family: Montserrat;
+                "
+              >
+                $149.99</span
+              >
+              &nbsp;
+              <s style="opacity: 30%; font-style: italic">$169.99</s>
+            </p>
+
+            <br />
+            <a
+              href="#"
+              class="btn"
+              style="background-color: #013220; color: white"
+              >Add to Cart</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        style="margin: 0px; width: 0"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.linkedin.com/in/shivamg5501/"
+        target="_blank"
+        style="margin: 0px; width: 0"
+        >Shivam Gupta</a
+      >.
+    </div>
+  </body>
+</html>
